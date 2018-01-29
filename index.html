@@ -1,46 +1,176 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>My Super Awesome Website</title>
-</head>
-<body>
-  <h1>Hi! Welcome to my website!!!</h1>
+<html lang="en">
+ <head>
+ <title>Cookit Delivery: Thailand's First Meal-Kit Delivery</title>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+ <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Concert+One|Roboto+Slab" rel="stylesheet">
+ <link rel="stylesheet" href="styles.css">
+ <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+ </head>
 
-  <p>Isn't it <strong>awesome</awesome>?</p>
+ <body>
+   <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #990000;">
+     <a class="navbar-brand" href="index.html"><img class=img-fluid src="cookit-logo-small.png"></a>
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+     </button>
 
-  <p>
-    <a href="http://google.com">You can find anything on the Internet</a>
-  </p>
+     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+       <ul class="navbar-nav mr-auto">
+         <li class="nav-item active">
+           <a class="nav-link" href="menu.html"><h1 class="fancy red">Menu</h1><span class="sr-only">(current)</span></a>
+         </li>
+         <li class="nav-item active">
+           <a class="nav-link" href="press.html"><h1 class="fancy red">Press</h1><span class="sr-only">(current)</span></a>
+         </li>
+       </ul>
+     </div>
+   </nav>
 
-  <p>
-    <a href="tacos.html">The best food</a>
-  </p>
+   <div class="jumbotron">
+     <div class="col-lg-6">
+       <br><br>
+       <img style="width:30%" src="logo-fit.png">
+       <h1 class="fancy-lg">Meal Kit Delivery!</h1>
+       <p>First time in Thailand - Every week, we deliver fresh ingredients to your door. Simply choose what you want to cook and you'll get ingredients just exactly what you need! (More at www.cookitdelivery.com)</p>
+       <p class="lead">
+         <a class="btn btn-danger btn-lg" href="menu.html" role="button">Shop now</a>
+       </p>
+       <br>
+     </div>
+   </div>
 
-  <!-- This is an awesome photo -->
-  <p><img src="coffee.gif"></p>
 
-  <ol>
-    <li>list 1</li>
-    <li>list 2</li>
-    <li>list 3</li>
-  </ol>
-  <hr>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 fancy-lg-white">
+            <br>
+            <i class="fas fa-truck" style="font-size:500%"></i>
+            <h2>Deliver to door</h2>
+            <br>
+            <p style="color:white;">We deliver our meal kit to your place every week, at your desired time. No longer need to find exotic ingredients. Just relax and let us shop ingredients for you!</p>
+        </div>
+        <div class="col-lg-4 fancy-lg-white">
+            <br>
+            <i class="far fa-clock" style="font-size:500%"></i>
+            <h2>Cook in 20 mins</h2>
+            <br>
+            <p style="color:white;">We pre-portioned ingredients for you, just exactly what you need. So now you no longer have to measure stuff. Also forget about leftovers and hours of cleaning up!</p>
+        </div>
+        <div class="col-lg-4 fancy-lg-white">
+            <br>
+            <i class="fas fa-child" style="font-size:500%"></i>
+            <h2>Never get bored!</h2>
+            <br>
+            <p style="color:white;">Our menus are updated every week. We offer wide ranges of menu by special chefs and restaurant partners. Learn to cook Italian, Korean, Japanese and many more!</p>
+        </div>
+        <div><img class=img-fluid src="pagebreak.jpg"></div>
+      </div>
+    </div>
 
-  <h3>Hi! Welcome to <span>my website!!!</span></h3>
+    <div style="background-color: white;">
+      <div class="container">
+        <h2 class="fancy-lg" style="text-align: center"><br>Our Top 9 Best Sellers<br><br></h2>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="2000">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-lg-4">
+                  <img class="d-block w-100" src="menu1.jpg" alt="First slide">
+                  <br>
+                  <p style="text-align: center">Baked rice with sea bass and hijiki ($12)</p>
+                </div>
+                <div class="col-lg-4">
+                  <img class="d-block w-100" src="menu2.jpg" alt="First slide">
+                  <br>
+                  <p style="text-align: center">Wafu pork chop with Japanese rice ($15)</p>
+                </div>
+                <div class="col-lg-4">
+                  <img class="d-block w-100" src="menu3.jpg" alt="First slide">
+                  <br>
+                  <p style="text-align: center">Singapore chicken rice ($9)</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-lg-4">
+                  <img class="d-block w-100" src="menu4.jpg" alt="Second slide">
+                  <br>
+                  <p style="text-align: center">Ground pork stewed in sweet gravy sauce ($6)</p>
+                </div>
+                <div class="col-lg-4">
+                  <img class="d-block w-100" src="menu5.jpg" alt="Second slide">
+                  <br>
+                  <p style="text-align: center">Pan-seared duck breast with hoisin ($16)</p>
+                </div>
+                <div class="col-lg-4">
+                  <img class="d-block w-100" src="menu6.jpg" alt="Second slide">
+                  <br>
+                  <p style="text-align: center">Steamed dory with miso sauce ($9)</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-lg-4">
+                  <img class="d-block w-100" src="menu7.jpg" alt="Third slide">
+                  <br>
+                  <p style="text-align: center">Bacon beetroot risotto ($8)</p>
+                </div>
+                <div class="col-lg-4">
+                  <img class="d-block w-100" src="menu8.jpg" alt="Third slide">
+                  <br>
+                  <p style="text-align: center">Demi-glace sauce omurice ($11)</p>
+                </div>
+                <div class="col-lg-4">
+                  <img class="d-block w-100" src="menu9.jpg" alt="Third slide">
+                  <br>
+                  <p style="text-align: center">Chicken nanban with Japanese rice ($8)</p>
+                </div>
+              </div>
+            </div>
+            <br>
+          </div>
+        </div>
+      </div>
+    </div>
 
-  <table>
-    <tr>
-      <th>Title</th>
-      <th>Description</th>
-    </tr>
-    <tr>
-      <td>Product A</td>
-      <td>Normal coffee</td>
-    </tr>
-    <tr>
-      <td>Product B</td>
-      <td>Premium coffee</td>
-    </tr>
-  </table>
-</body>
+    <div class="container">
+      <br>
+      <div class="row">
+          <div class="col-lg-4">
+          </div>
+          <div class="col-lg-4">
+            <form>
+              <div class="form-group">
+                <h2 class="fancy-lg" style="color:white">Join our community!</h2>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="youremail@example.com">
+              </div>
+            </form>
+          </div>
+          <div class="col-lg-4">
+          </div>
+      </div>
+      <p style="color:white; text-align:center">Subscribe to our weekly newsletter and get new recipes every week</p>
+    </div>
+
+
+ </body>
+
+ <footer style="color:white;">
+   <p style="text-align:center">follow us at: &nbsp <i class="fab fa-facebook-square"></i> <i class="fab fa-twitter"></i> <i class="fab fa-instagram"></i></p>
+ </footer>
+
 </html>

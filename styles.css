@@ -1,0 +1,47 @@
+h1.fancy {
+  font-family: 'Concert One', cursive;
+  font-size: 150%
+}
+
+h1.fancy-lg {
+  font-family: 'Concert One', cursive;
+}
+
+h2.fancy-lg {
+  font-family: 'Concert One', cursive;
+}
+
+
+div.fancy-lg-white {
+  font-family: 'Concert One', cursive;
+  color: white;
+  text-align: center;
+}
+
+
+p {
+  font-family: 'Roboto Slab', serif;
+}
+
+.red {
+  color: white;
+}
+
+.jumbotron {
+  background-image: url(jumbotron.jpg);
+  background-size: cover;
+}
+
+
+.jumbotron2 {
+  background-image: url(jumbotron2.jpg);
+  background-size: cover;
+}
+
+body {
+  background-color: darkred;
+}
+
+form {
+  text-align: center;
+}
